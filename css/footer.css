@@ -1,0 +1,41 @@
+.copypast_license p
+{
+	font-size: 11px;
+	font-weight: normal;
+	opacity: 0.8;
+}
+
+.copypast_link li a span
+{
+	background: url(../image/sprite.png) no-repeat;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	margin-right: 15px;
+}
+.copypast_link li a span:hover
+{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.copypast_link li:nth-child(1) a span
+{
+	background-position: -6px 0px;
+}
+.copypast_link li:nth-child(2) a span
+{
+	background-position: -66px 0px;
+}
+.copypast_link li:nth-child(3) a span
+{
+	background-position: -184px -1px;
+}
+.copypast_link li:nth-child(4) a span
+{
+	background-position: -185px -103px;
+}
+.footer
+{
+	margin-bottom: 15px;
+}

@@ -1,0 +1,122 @@
+.header
+{
+background: rgba(74,125,252,1);
+background: -moz-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,62,185,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(74,125,252,1)), color-stop(100%, rgba(14,62,185,1)));
+background: -webkit-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,62,185,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,62,185,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,62,185,1) 100%);
+background: linear-gradient(135deg, rgba(74,125,252,1) 0%, rgba(14,62,185,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a7dfc', endColorstr='#0e3eb9', GradientType=1 );
+color: white;
+font-weight: normal;
+font-family:Tahoma, Arial sans-serif;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+.nav
+{
+	
+}
+
+.nav img
+{
+	width: 30%;
+	height: 30%;
+
+}
+.nav_name
+{
+	color: #000;
+	opacity: .90;
+	font-weight: bold;
+}
+.nav_doing
+{
+	color: #bbb6b6;
+	opacity: .85;
+	letter-spacing: 0.18em;
+}
+.about_content 
+{
+
+	margin: 0 0 0 30px;
+
+}
+.nav_link
+{
+	margin-right: 40px;
+	text-decoration: none;
+    color: #b5b5b5;
+}
+.nav_link:hover
+{
+    color: #64c5d4;
+    text-shadow: 0 0 3px #000;
+}
+
+.nav_menu
+{
+	display: flex;
+ 	align-items: center
+}
+.hello
+{
+	font-size: 170px;
+	font-weight: bold;
+	color: #49bbcc;
+	padding-bottom: 30px;
+	text-transform: none;
+}
+.doing
+{
+	font-size: 44px;
+	font-weight: normal;
+	text-transform: none;
+}
+.separator
+{	
+	padding: 25px 0 25px 0;
+	font-size: 18px;
+	opacity: 0.7;
+	letter-spacing: -0.09em;
+}
+/* wrapping resize image */
+.image
+{
+	position:relative;
+}
+.image a
+{
+	position:absolute; top:15px; left:15px;
+}
+.text-color
+{
+	color: #49bbcc;
+}
+.work_content
+{
+	margin-left: 15px;
+}
+.work_content p
+{
+	font: normal normal normal 15px/1.4em 'Open Sans',sans-serif;
+    color: #484848;
+}
+.work_content a
+{
+	justify-content: center;
+	background-color: rgba(73, 187, 204, 1);
+    border: solid rgba(73, 187, 204, 1) 0px;
+    text-decoration: none;
+    width: 280px;
+    height: 30px;
+    color: white;
+    font: normal normal normal 15px/1.4em 'Open Sans',sans-serif;
+    margin-top: 110px;
+}
+.shadow
+{
+	box-shadow: 0 -50px 600px #1510106b;
+}
