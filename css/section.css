@@ -39,3 +39,9 @@
     font: normal normal normal 15px/1.4em 'Open Sans',sans-serif;
     margin-top: 110px;
 }
+.project
+{
+	width: 494px;
+	height: 325px;
+	object-fit: cover;
+}
